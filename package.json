@@ -1,0 +1,10 @@
+{
+  "name": "ISIP",
+  "version": "0.0.0",
+  "description": "Help decide which candidate to vote for",
+  "author": "Claudio Wilson",
+  "license": "MIT",
+  "dependencies" : {
+  	"koa" : "0.13.0"
+  }
+}
