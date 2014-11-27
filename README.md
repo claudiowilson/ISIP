@@ -1,3 +1,7 @@
 #ISIP
 
-Bower, Node, Koa, Bootstrap.
+##Back End:
+Node
+	- Koa
+##Front End:
+	Bower, Bootstrap, Swig
