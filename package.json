@@ -5,10 +5,11 @@
   "author": "Claudio Wilson",
   "license": "MIT",
   "dependencies" : {
-  	"koa" : "0.13.0",
+    "koa" : "0.13.0",
     "koa-router" : "3.7.0",
     "co-views" : "0.2.0",
     "swig" : "1.4.2",
     "bluebird" : "2.3.11",
+    "koa-static" : "1.4.7"
   }
 }
