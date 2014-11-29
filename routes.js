@@ -7,7 +7,5 @@ module.exports = function routes(app) {
 
 	app.get('/quiz', quiz.quiz);
 
-	app.post('/quiz', function* (next) {
-
-	});
+	app.post('/results', quiz.results);
 }

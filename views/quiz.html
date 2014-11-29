@@ -1,6 +1,22 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-	<div class="container">
-	</div>
+  <div class="container white-b">
+    <form action="results" method="post">
+      {% for issue in issues %}
+        <div class="overarch">
+          <h2>{{ issue.issueQuestion }}</h2>
+          {% for question in issue.questions %}
+            <div class="single">
+              <h3>{{ question.question }}</h3>
+              {% for option in question.options %}
+                <input type="radio" name={{ question.name }} value={{ option.val }}> {{ option.text }} <br>
+              {% endfor %}
+            </div>
+          {% endfor %}
+        </div>
+      {% endfor %}
+      <input type="submit" value="Submit">
+    </form>
+  </div>
 {% endblock %}

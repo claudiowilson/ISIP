@@ -1,14 +1,39 @@
-#middle {
+.middle {
 	margin-top : 300px;
 	font-size: 21px;
 }
 
-#middle h1 {
+.middle h1 {
 	font-size: 40px;
 }
+
 .navbar a {
 	color: white;
 }
+
+.white-b {
+	margin-top : 200px;
+	background-color: white;
+	outline: black solid medium;
+}
+
+.white-b > form >input {
+	margin : 20px 50px 20px 50px;
+}
+
+.overarch {
+	margin-left: 50px;
+	margin-top: 40px;
+}
+
+.single {
+	margin-left : 50px;
+}
+
+.single input {
+	margin-left: 50px;
+}
+
 body {
 	background-image: url("../img/flag.jpg");
 }

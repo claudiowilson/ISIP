@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+	<div class="container white-b">
+		<h1>You hold the same views as {{ top }} on most political issues.</h1>
+		<h2>Candidates you side with</h2>
+		{% for tallycount in alignment %}
+			<h3> {{ tallycount.candidatename }} : {{ tallycount.score }}% </h3>
+		{% endfor %}
+	</div>
+{% endblock %}
